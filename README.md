@@ -1,2 +1,4 @@
 # Hackhazards-2025-Hackathon
-A multi-modal web-application with "Groq" which includes chatbot and data-analysis tool.
+# My Web App
+
+This is a web application with a React frontend and a Node.js/Express backend. It includes user authentication, AI chat, and data analysis features.
