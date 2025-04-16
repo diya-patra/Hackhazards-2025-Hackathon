@@ -2,9 +2,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div style={{ textAlign: "center" }}>
-      <h2>Contact Us</h2>
-      <p>Email us at contact@hackhazards2025.com</p>
+    <div className="contact-container" style={{ textAlign: "center" }}>
+      <h2 className="contact-title">Get in Touch</h2>
+      <p className="contact-email">Email us at <a href="mailto:contact@hackhazards2025.com">contact@hackhazards2025.com</a></p>
     </div>
   );
 };

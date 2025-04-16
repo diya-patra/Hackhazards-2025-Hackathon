@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+
+// Importing pages
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Features from "./pages/Features";
@@ -10,7 +12,10 @@ function App() {
   return (
     <Router>
       <div>
+        {/* Navbar will appear on all pages */}
         <Navbar />
+        
+        {/* Define routes for each page */}
         <main style={{ padding: "20px" }}>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -24,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;
